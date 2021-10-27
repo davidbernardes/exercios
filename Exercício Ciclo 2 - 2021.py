@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
-
-
-# 1
+# 1  -----------------------
 
 idade_dias = int(input("Digite sua idade em dias: "))
 
@@ -15,10 +12,7 @@ dias = idade_dias
 print(f'A sua idade em anos é: {anos:.0f}; em meses:{meses:.0f}; e em dias: {dias}')
 
 
-# In[16]:
-
-
-# 2
+# 2  -----------------------
 
 a = int(input("Digite o Valor de a: "))
 b = int(input("Digite o Valor de b: "))
@@ -33,10 +27,9 @@ else:
     print(f'A área do triângulo é {s}')
 
 
-# In[22]:
 
 
-# 3
+# 3  -----------------------
 
 lista = []
 for x in range(1, 4):
@@ -45,10 +38,9 @@ for x in range(1, 4):
 print(f'O menor número digitado foi: {min(lista)}')
 
 
-# In[32]:
 
 
-# 5
+# 4  -----------------------
 
 def primo(x):
     if x==0 or x==1:
@@ -65,9 +57,8 @@ for x in range(101):
         print(x,'não é primo')
 
 
-# In[29]:
 
-
+# 5  -----------------------
 def inverter(frase):
     return frase[::-1]
 
